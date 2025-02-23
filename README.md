@@ -42,8 +42,16 @@ Build a **content-based recommendation system** that, given a **short text descr
    - A short `README.md` that includes:
      - **Dataset**: Where it’s from, any steps to load it: I GOT THE DATASET FROM https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset/data WHICH I CLEANED THE DATA UP AND USED IT 
      - **Setup**: in this repo, it should say open with google colab, click that and once opened, please upload the dataset that is labeled "(movie1_dataset.csv), and then run the code blocks
-     - **Running**: just click play on the code blocks in the notebook 
-     - **Results**: 
+     - **Running**: just click play on the code blocks in the notebook , make sure to have the dataset uploaded in the notebook 
+     - **Results**: A cryptic message from Bond‚Äôs past sends him on a trail to uncover a sinister organization.
+Here are the top 5 recommended movies based on your preference:
+Title	Similarity
+2	Spectre	0.580744
+220	Jason Bourne	0.069612
+11	Quantum of Solace	0.065424
+30	Skyfall	0.061510
+164	Watchmen	0.052952
+
 
 ---
 
@@ -53,11 +61,8 @@ Build a **content-based recommendation system** that, given a **short text descr
    - **Fork** this repo into your own GitHub account.
 
 2. **Implement Your Solution**  
-   - Load and preprocess your dataset (e.g., read CSV, handle text columns).  
-   - Convert text data to vectors (e.g., TF-IDF).  
-   - Implement a function to compute similarity between the user’s query and each item’s description.  
-   - Return the top matches.
-   - Salary expectation per month (Mandatory)
+   - MY SALARY EXPECTATIONS PER MONTH: 30 per hour * 40 hours * 4 = 4800
+   - but i am content with anything above 4000 per month 
 
 3. **Short Video Demo**  
    - In a `.md` file (e.g., `demo.md`) within your fork, paste a link to a **brief screen recording** (video link).  
