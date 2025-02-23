@@ -29,25 +29,21 @@ Build a **content-based recommendation system** that, given a **short text descr
    - To use it, when running in the notebook PLEASE UPLOAD THE DATASET FILE "movie1_dataset.csv"
    - and the run sequentially run the code blocks
 2. **Approach**  
-   - **Content-Based**: At a minimum, use text similarity to recommend items.  
-     - For instance, you can transform both the user’s text input and each item’s description into TF-IDF vectors and compute **cosine similarity**.  
-   - Return the **top N** similar items (e.g., top 5).
+   - My approach was simple. I first did TF-IDF vectors on both the user input, and then I did the same for each movie, in which my calculations took into account the title, genre, and summary, and computed the corresponding vector and then using that i did cosine similarity to see how similar they are with one another 
 
 3. **Code Organization**  
-   - You may use a **Jupyter Notebook** or **Python scripts**.  
-   - Keep it **readable** and **modular** (e.g., one section for loading data, one for building vectors, one for computing similarity, etc.).  
-   - Briefly comment or docstring your key functions/sections.
+   - I used Google Colab
+    
 
 4. **Output**  
-   - When given an input description (e.g., `"I like action movies set in space"`), your system should print or return a list of recommended items (e.g., 3–5 titles).  
-   - Include the similarity score or rank if you’d like.
+   - My solution prints out 5 recommendations and the corresponding score next to it
 
 5. **Summary & Instructions**  
    - A short `README.md` that includes:
-     - **Dataset**: Where it’s from, any steps to load it.  
-     - **Setup**: Python version, virtual environment instructions, and how to install dependencies (`pip install -r requirements.txt`).  
-     - **Running**: How to run your code (e.g., `python recommend.py "Some user description"` or open your notebook in Jupyter).  
-     - **Results**: A brief example of your system’s output for a sample query.
+     - **Dataset**: Where it’s from, any steps to load it: I GOT THE DATASET FROM https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset/data WHICH I CLEANED THE DATA UP AND USED IT 
+     - **Setup**: in this repo, it should say open with google colab, click that and once opened, please upload the dataset that is labeled "(movie1_dataset.csv), and then run the code blocks
+     - **Running**: just click play on the code blocks in the notebook 
+     - **Results**: 
 
 ---
 
