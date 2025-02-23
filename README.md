@@ -1,7 +1,10 @@
 # AI/Machine Learning Intern Challenge: Simple Content-Based Recommendation
 
 **Deadline**: Sunday, Feb 23th 11:59 pm PST
-
+#Name
+-Harman Singh
+-UMBC
+-CompSCI/Math
 ---
 
 ## Overview
@@ -20,10 +23,11 @@ Build a **content-based recommendation system** that, given a **short text descr
 ## Requirements
 
 1. **Dataset**  
-   - Use a **small** public dataset of items (e.g., a list of movies with plot summaries, or other textual descriptions).  
-   - Make sure the dataset is easy to handle (maybe 100–500 rows) so the solution remains quick to implement and run.  
-   - Include the dataset in your forked repository *or* provide instructions/link on how to download it.  
-
+   - Got a small Movies Dataset with about 200 rows that has titles, genres, and plot summary
+   - it is attached in the main fork of this repo, PLEASE DOWNLOAD THIS FILE AND KEEP THE NAME SAME
+   - It will be used to read in the file
+   - To use it, when running in the notebook PLEASE UPLOAD THE DATASET FILE "movie1_dataset.csv"
+   - and the run sequentially run the code blocks
 2. **Approach**  
    - **Content-Based**: At a minimum, use text similarity to recommend items.  
      - For instance, you can transform both the user’s text input and each item’s description into TF-IDF vectors and compute **cosine similarity**.  
